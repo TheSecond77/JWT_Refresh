@@ -1,0 +1,11 @@
+CREATE DATABASE progweb3;
+
+CREATE TABLE 'usuarios'(
+	'codusuario' int(11) NOT NULL,
+	'idusuario' varchar(30) NOT NULL,
+	'senhausuario' varchar(30) NOT NULL,
+	'nomeusuario' varchar(60) NOT NULL,
+	'email' varchar(60) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE `progweb3`.`blacklist` (`refreshtoken` VARCHAR(250) NOT NULL ) ENGINE = InnoDB; 
